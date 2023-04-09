@@ -115,19 +115,31 @@ A towny tutorial for S2.
 /town (/t) join {townname} - **Command to join a town that doesn't require invites.**
 ## /nation
 /nation (/n) - **Shows a player their nation's nation screen.
-/nation (/n) ? - Shows /nation commands.
-/nation (/n) list - Lists nations.
-/nation (/n) online - Shows players in your nation which are online.
-/nation (/n) {nation} - Shows a player the /nation screen of another nation.
-/nation (/n) leave - Mayor command to leave the nation they are a part of.
-/nation (/n) withdraw {$} - King command to remove money from the nation bank.
-/nation (/n) deposit {$} - King command to add money to the nation bank.
+
+/nation (/n) ? - **Shows /nation commands.
+
+/nation (/n) list - **Lists nations.
+
+/nation (/n) online - **Shows players in your nation which are online.
+
+/nation (/n) {nation} - **Shows a player the /nation screen of another nation.
+
+/nation (/n) leave - **Mayor command to leave the nation they are a part of.
+
+/nation (/n) withdraw {$} - **King command to remove money from the nation bank.
+
+/nation (/n) deposit {$} - **King command to add money to the nation bank.
 ### /nation (/n) new
 /nation (/n) new {nationname} - Mayor command to create a nation.
+
 /nation (/n) new {nationname} {capitaltown} - Admin command to create a new nation, set capitol.
+
 /nation (/n) rank - Command to set assistant/custom ranks in the nation.
+
 /nation (/n) add {town} .. {town} - Invites/Adds a town to your nation.
+
 /nation (/n) kick {town} .. {town} - Removes a town from your nation.
+
 /nation (/n) delete {nation} - Deletes your nation.
 ### /nation (/n) ally
 /nation (/n) ally add {nation} .. {nation} - Add a nation to your nation's ally list.
