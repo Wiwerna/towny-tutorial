@@ -213,3 +213,29 @@ A towny tutorial for S2.
 /resident set reset - **This takes the perm line seen in the /resident screen and applies it to all plots personally owned by the player typing it.**
 
 /resident tax - **Shows taxes a player pays.**
+## /towny
+/towny - **Shows basic towny commands.**
+
+/towny ? - **Shows more towny commands.**
+
+/towny map - **Shows the towny map.**
+
+/towny prices - **Shows taxes/costs associated with running a town.**
+
+/towny time - **Shows time until next new-day (tax/upkeep collection.)**
+### /towny top
+/towny top residents {all/town/nation} - **Shows top residents.**
+
+/towny top land {all/resident/town} - **Shows top land owners.**
+
+/towny spy - **Admin command to spy on all chat channels.**
+
+/towny tree - **Shows lots of stuff.**
+
+/towny universe - **Shows full towny stats, resident/town/nation/world counts as well as townblocks claimed.*"
+
+/towny v - **Shows towny version.**
+### /towny war
+/towny war stats
+
+/towny war scores
