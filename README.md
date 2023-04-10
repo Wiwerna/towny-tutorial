@@ -239,3 +239,67 @@ A towny tutorial for S2.
 /towny war stats
 
 /towny war scores
+## /plot
+/plot - **Shows the /plot commands.**
+
+/plot claim - **Resident command to personally claims a plot that are for sale.**
+
+/plot claim auto - **Resident command to personally claim an area of plots that are for sale, around the player typing the command.**
+
+/plot unclaim - **Resident command to unclaim personally owned plots.**
+
+/plot unclaim circle/rect - **Resident command to unclaim personally owned plots in a circle or rectangle shape.**
+
+/plot unclaim {# (radius around current position)} - **Radius of the area to unclaim.**
+
+/plot {forsale/fs} - *"Set a plot for sale.**
+
+/plot forsale/fs circle/rect - **Set a shape.**
+
+/plot forsale/fs {# (radius around current position)} - **Radius of the area to set forsale.**
+
+/plot forsale/fs $$ - **Cost of plot.**
+
+/plot forsale/fs circle/rect - **Set a shape.**
+
+/plot forsale/fs circle/rect {# (radius around current position)} - **Radius of the area to set forsale.**
+
+/plot {notforsale/nfs} - **Set a plot to not be for sale.*"
+
+/plot notforsale/nfs circle/rect - **Set a shape.**
+
+/plot notforsale/nfs {# (radius around current position)} - **Radius of the area to set notforsale.**
+
+/plot perm - **Shows the perm line of the plot in which the player stands.**
+### /plot set
+/plot set reset - **Sets a shop/embassy/arena/wilds plot back to a normal plot.**
+
+/plot set shop - **Sets a plot to a shop plot.**
+
+/plot set embassy - **Sets a plot to an embassy plot.**
+
+/plot set arena - **Sets a plot to an arena plot.**
+
+/plot set wilds - **Sets a plot to a wilds plot.**
+
+/plot set name - **Allows a mayor or plot-owner to rename plots they own, overwriting the ~Unowned message. Personal-plots display both the plot's given name and the name of the plot-owner.**
+### /plot set perm
+/plot set perm {on/off} - **Edits the perm line of the single plot in which the player is standing.**
+
+/plot set perm {resident/ally/outsider} {on/off}
+
+/plot set perm {build/destroy/switch/itemuse} {on/off}
+
+/plot set perm {resident/ally/outsider} {build/destroy/switch/itemuse} {on/off}
+
+/plot set perm reset - **Resets the plot in which you stand to the default perm line of the /town or /resident screen (depending on if the plot is owned personally or by the town.)**
+### /plot toggle
+/plot toggle fire - **Turn on/off firespread in the plot in which you stand.**
+
+/plot toggle pvp - **Turn on/off pvp in the plot in which you stand.**
+
+/plot toggle explosion - **Turn on/off explosions in the plot in which you stand.**
+
+/plot toggle mob - **Turn on/off hostile mobspawning in the plot in which you stand.**
+
+/plot toggle clear - **Command to remove list of block id's from a plot, used by a mayor on town-owned land, or by a plot-owner on their personal plots.**
