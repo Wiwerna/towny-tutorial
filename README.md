@@ -169,4 +169,47 @@ A towny tutorial for S2.
 /nation (/n) set clear - **Clears the tag set for the nation.**
 ### /nation (/n) toggle
 /nation (/n) toggle neutral - **Sets whether your nation will pay daily to be neutral during towny war.**
+## /resident
+/resident - **Shows a player their resident screen.
 
+/resident ? - **Shows /res commands available.
+
+/resident {resident} - **Shows a player another player's resident screen.**
+### /resident friend
+/resident friend add {resident} .. {resident} - **Resident adds online player to their friends list.**
+
+/resident friend add+ {resident} .. {resident} - **Resident adds offline player to their friends list.**
+
+/resident friend remove {resident} .. {resident} - **Resident removes online player from their friends list.**
+
+/resident friend remove+ {resident} .. {resident} - **Resident removes offline player from their friends list.**
+
+/resident friend clearlist - **Removes all friends from a resident's friend list.**
+
+/resident list - **Lists residents in towny's data folder.**
+
+/resident spawn - **If deny_bed_use: true in the config.yml and player has a current bed spawn, command will teleport player to their bed.**
+### /resident toggle
+/resident toggle map - **Turns on map which refreshes when moving across plot borders.**
+
+/resident toggle townclaim - **Turns on mode where /town claim is automatically used when moving across plot borders.**
+
+/resident toggle plotborder - **Turns on smokey plot-border view. Border shows when players cross to different townblocks.**
+
+/resident toggle spy - **Admins can turn on chat-channel spying.**
+
+/resident toggle reset - **This turns off all modes that are active.**
+### /resident set
+/resident set perm
+
+/resident set {on/off} - **Edits the perm line on the resident screen. See here for details.**
+
+/resident set {friend/ally/outsider} {on/off}
+
+/resident set {build/destroy/switch/itemuse} {on/off}
+
+/resident set {friend/ally/outsider} {build/destroy/switch/itemuse} {on/off}
+
+/resident set reset - **This takes the perm line seen in the /resident screen and applies it to all plots personally owned by the player typing it.**
+
+/resident tax - **Shows taxes a player pays.**
